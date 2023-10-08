@@ -1,18 +1,16 @@
-## Getting Started
+# ContaBanco | dio-trilha-java-basico
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### O ContaBanco é um programa Java simples que permite aos usuários inserir informações relacionadas a uma conta bancária por meio do terminal e, em seguida, exibir uma mensagem formatada com os dados fornecidos.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Solicita ao usuário as seguintes informações:
+  - Número da Agência
+  - Número da Conta
+  - Nome do Cliente
+  - Saldo da Conta
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+- Exibe uma mensagem de agradecimento com os dados fornecidos pelo usuário, incluindo o nome do cliente, a agência, o número da conta e o saldo.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Licença
+Este projeto é licenciado sob a Licença MIT - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
